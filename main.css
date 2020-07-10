@@ -1,1 +1,22 @@
-/* Hollywood Quiz App */
+/* 
+Hollywood Quiz App 
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

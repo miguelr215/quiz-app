@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hollywood Quiz App</title>
+    <title>Hollywood Trivia Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Hollywood Trivia Quiz</h1>
+        <ul>
+            <li>Questions: <span class="quesNum">0</span>/15</li>
+            <li>Score: <span class="score">0</span></li>
+        </ul>
+    </header>
+    <main>
+        <div class="starterBox">
+            <h2>Hollywood Trivia Quiz</h2>
+            <p>How much do you know about movies and Hollywood's most famous?</p>
+            <button type="button" class="startBtn">Start Quiz</button>
+        </div> <!--end of starterBox-->
+
+        <div class="quesBox"></div>
+        <div class="answerBox"></div>
+        <div class="finalBox"></div>
+
+    </main>
+
+    <!--jQuery script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!--custom js-->
+    <script src="app.js"></script>
 </body>
 </html>
