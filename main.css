@@ -1,7 +1,4 @@
-/* 
-Hollywood Quiz App 
-
-*/
+/* Hollywood Quiz App */
 
 * {
     box-sizing: border-box;
@@ -11,12 +8,105 @@ Hollywood Quiz App
 }
 
 header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
     text-align: center;
+    background-image: url(images/hollywood-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 30px 50px 30px;
 }
+
+main img {
+    display: inline-block;
+    margin: 10px 200px;
+}
+
+main p,
+main form {
+    font-size: 16px;
+}
+
+h2 {
+    margin-bottom: 7px;
+}
+
+.hidden {
+    display: none;
+}
+
+/****************BUTTONS****************/
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: #ffffff;
+}
+
+/****************HEADER****************/
+.headerBox {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.headerBox h1 {
+    color: #df6c07;
+}
+.headerBox ul {
+    list-style: none;
+}
+
+.headerBox ul li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/****************STARTER BOX****************/
+.starterBox p {
+    margin: 0 auto;
+    width: 400px;
+}
+
+/****************QUESTION BOX****************/
+.questionBox label {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.questionBox div {
+    padding-left: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.questionBox button {
+    margin: 10px;
+}
+
+/****************ANSWER BOX****************/
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+/****************MEDIA QUERIES****************/
+@media all and (min-width: 700px){
+
+};
 

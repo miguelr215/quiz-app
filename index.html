@@ -9,22 +9,54 @@
 </head>
 <body>
     <header>
-        <h1>Hollywood Trivia Quiz</h1>
-        <ul>
-            <li>Questions: <span class="quesNum">0</span>/15</li>
-            <li>Score: <span class="score">0</span></li>
-        </ul>
+        <div class="headerBox">
+            <h1>Trivia Quiz</h1>
+            <ul>
+                <li>Questions: <span class="questionNum">0</span> out of 15</li>
+                <li>Score: <span class="scoreboard">0</span> out of 15</li>
+            </ul>
+        </div>
     </header>
     <main>
         <div class="starterBox">
             <h2>Hollywood Trivia Quiz</h2>
             <p>How much do you know about movies and Hollywood's most famous?</p>
-            <button type="button" class="startBtn">Start Quiz</button>
+            <img src="images/start.png" alt="hollywood movie clap board">
+            <button type="button" class="btn startBtn">Start Quiz</button>
         </div> <!--end of starterBox-->
 
-        <div class="quesBox"></div>
-        <div class="answerBox"></div>
-        <div class="finalBox"></div>
+        <div class="questionBox hidden">
+            <!-- <form action="#">
+            <h2 class="question"></h2>
+            <label for="option1">
+                <input type="radio" id="option1" name="hollywoodQues" value="">
+            </label>
+            <label for="option2">
+                <input type="radio" id="option2" name="hollywoodQues" value="">
+            </label>
+            <label for="option3">
+                <input type="radio" id="option3" name="hollywoodQues" value="">
+            </label>
+            <label for="option4">
+                <input type="radio" id="option4" name="hollywoodQues" value="">
+            </label>
+            <button type="button" class="submitAnswerBtn">Submit</button>
+            </form> -->
+        </div>
+        <div class="answerBox hidden">
+            <!-- <div class="answerDisplay">
+                <h2 class="answerTitle"></h2>
+                <p>The correct answer is <span class="realAnswer"></span></p>
+                <img src="images/start.png" alt="hollywood movie clap board">
+                <button class="nextQuestionBtn">Next</button>
+            </div> -->
+        </div>
+        <div class="finalBox hidden">
+            <!-- <h2 class="finalTitle"></h2>
+            <p class="finalScoreBox"></p>
+            <img src="images/start.png" alt="text">
+            <button class="restartBtn">Play Again?</button> -->
+        </div>
 
     </main>
 
