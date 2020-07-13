@@ -80,6 +80,10 @@ h2 {
     width: 400px;
 }
 
+.starterBox img {
+    display: block;
+}
+
 /****************QUESTION BOX****************/
 .questionBox label {
     text-align: left;
@@ -93,10 +97,15 @@ h2 {
 }
 
 .questionBox button {
+    text-align: center;
     margin: 10px;
 }
 
 /****************ANSWER BOX****************/
+.answerBox p {
+    padding: 0 10px;
+}
+
 .red {
     color: red;
 }
@@ -107,6 +116,9 @@ h2 {
 
 /****************MEDIA QUERIES****************/
 @media all and (min-width: 700px){
-
+    header {
+        background-color: #000000;
+        background-image: url(images/hollywood-bigbg.png);
+    };
 };
 

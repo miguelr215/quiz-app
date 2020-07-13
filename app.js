@@ -148,10 +148,12 @@ function questionResult(correctAnswer, replyString, scoreBool, color){
 
     resultString = `
         <div class="answerDisplay">
-        <h2 class="answerTitle `+ color +`">`+ replyString +`</h2>
-        <p class="realAnswer">The correct answer is ` + correctAnswer +`</p>
-        <img src="`+ incomingImg +`" alt="`+ incomingAlt +`">
-        <button class="btn nextQuestionBtn">Next</button>
+            <h2 class="answerTitle `+ color +`">`+ replyString +`</h2>
+            <p class="realAnswer">The correct answer is ` + correctAnswer +`</p>
+            <img src="`+ incomingImg +`" alt="`+ incomingAlt +`">
+            <div>
+                <button class="btn nextQuestionBtn">Next</button>
+            </div>
         </div>`;
 
     $('.answerBox').html(resultString);
@@ -203,7 +205,9 @@ function generateFinalScoreString(title, color, fscore, img, alt){
         <h2 class="finalTitle `+ color +`">`+ title +`</h2>
         <p class="finalScoreBox">`+ fscore +`</p>
         <img src="`+ img +`" alt="`+ alt +`">
-        <button class="btn restartBtn">Play Again?</button>`;
+        <div>
+            <button class="btn restartBtn">Play Again?</button>
+        </div>`;
     return fullFinalString;
 };
 
