@@ -11,72 +11,86 @@ const questionBank = [
     {question: "In The Matrix, does Neo take the blue pill or the red pill?",
     options: ["Blue Pill", "Red Pill", "He said \'I need a glass of water please\'", "Neither"],
     answer: "Red Pill",
-    img: "images/redpill.png"
+    img: "images/redpill.png",
+    alt: "red pill"
     },
     {question: "For what movie did Tom Hanks score his first Academy Award nomination?",
     options: ["Big", "Forest Gump", "Philadelphia", "Sleepless in Seattle"],
     answer: "Big",
-    img: "images/hanks.png"
+    img: "images/hanks.png",
+    alt: "the movie big with tom hanks"
     },
     {question: "In what 1976 thriller does Robert De Niro famously say \“You talkin’ to me?\”",
     options: ["Goodfellas", "Casino", "Meet the Parents", "Taxi Driver"],
     answer: "Taxi Driver",
-    img: "images/taxi.png"
+    img: "images/taxi.png",
+    alt: "the movie taxi driver"
     },
     {question: "In Risky Business, what song did Tom Cruise famously lip-sync to in his underwear?",
     options: ["You Shook Me All Night Long by AC/DC", "Old Time Rock and Roll by Bob Seger", "Hotel California by Eagles", "Born to Be Wild by Steppenwolf"],
     answer: "Old Time Rock and Roll by Bob Seger",
-    img: "images/risky.png"
+    img: "images/risky.png",
+    alt: "tom cruise singing old time rock and roll by bob seger"
     },
     {question: "In Apocalypse Now, Robert Duvall says, \“I love the smell of _____ in the morning.\”",
     options: ["Donuts", "Bacon", "Gun Powder", "Napalm"],
     answer: "Napalm",
-    img: "images/napalm.png"
+    img: "images/napalm.png",
+    alt: "robert duvall infront of napalm"
     },
     {question: "Joaquin Phoenix received his first Oscar nomination for playing Roman emperor Commodus in what 2000 Oscar-winning epic?",
     options: ["300", "The Fall of Rome", "Caesar", "Gladiator"],
     answer: "Gladiator",
-    img: "images/gladiator.png"
+    img: "images/gladiator.png",
+    alt: "joaquin phoenix in the movie gladiator"
     },
     {question: "In the action thriller Speed, why is Annie (Sandra Bullock’s) driver’s license suspended?",
     options: ["Hit and Run", "Speeding", "DUI", "Broken tail light"],
     answer: "Speeding",
-    img: "images/speed.png"
+    img: "images/speed.png",
+    alt: "the movie speed"
     },
     {question: "Which Alfred Hitchcock thriller is notorious for its shocking \“shower scene\”?",
     options: ["Psycho", "The Birds", "To Catch a Thief", "The Trouble with Harry"],
     answer: "Psycho",
-    img: "images/psycho.png"
+    img: "images/psycho.png",
+    alt: "the movie psycho"
     },
     {question: "What is the real name of Uma Thurman’s “The Bride” character from Kill Bill?",
     options: ["Nancy Botwin", "Daenerys Targaryen", "Maggie Simpson", "Beatrix Kiddo"],
     answer: "Beatrix Kiddo",
-    img: "images/kiddo.png"
+    img: "images/kiddo.png",
+    alt: "the movie kill bill part 2"
     },
     {question: "Three of Jim Carrey’s blockbusters — The Mask, Dumb and Dumber and Ace Ventura: Pet Detective — were all released in what year?",
     options: ["1992", "1994", "1999", "2002"],
     answer: "1994",
-    img: "images/carrey.png"
+    img: "images/carrey.png",
+    alt: "3 will ferrell movies in 1994"
     },
     {question: "Which James Bond movie was the first for Pierce Brosnan as 007?",
     options: ["GoldenEye", "License to Kill", "Die Another Day", "Casino Royale"],
     answer: "GoldenEye",
-    img: "images/goldeneye.png"
+    img: "images/goldeneye.png",
+    alt: "pierce brosnan as james bond in goldeneye"
     },
     {question: "3 movies are tied with 11 Oscars.  Which movie is NOT part of that group?",
     options: ["Titanic (1997)", "Ben Hur (1959)", "Gone with the Wind (1939)", "The Lord of the Rings: The Return of the King (2003)"],
     answer: "Gone with the Wind (1939)",
-    img: "images/wind.png"
+    img: "images/wind.png",
+    alt: "the movie gone with the wind"
     },
     {question: "Which actress went to high school with Snoop Dogg and admitted she bought cannabis from him?",
     options: ["Anne Hathaway", "Angelina Jolie", "Cameron Diaz", "Scarlett Johansson"],
     answer: "Cameron Diaz",
-    img: "images/cameron.png"
+    img: "images/cameron.png",
+    alt: "cameron diaz and snoop dogg"
     },
     {question: "Which famous comedian/actor looks like the drummer from the Red Hot Chili Peppers, Chad Smith?",
     options: ["Louis C.K.", "Dane Cook", "Jerry Seinfeld", "Will Ferrell"],
     answer: "Will Ferrell",
-    img: "images/will-chad.png"
+    img: "images/will-chad.png",
+    alt: "will ferrell and chad smith"
     }
 ];
 
